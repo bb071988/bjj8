@@ -1,0 +1,2 @@
+Mentor Questions
+I thought about using inheritance and building a search function for next page and previous page.

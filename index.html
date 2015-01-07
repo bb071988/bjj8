@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BJJ youtube skill builder</title>
+	<link rel="stylesheet" href="css/main.css">
+	
+</head>
+
+<body>
+
+	<h1>Brazilian Jiu Jitsu youtube search</h1>
+
+	<div class = "left">
+
+	<div class="yourgame">
+		
+		<img class="topimg" src="img/bluebelt.jpg" alt="">
+
+		<p>Me getting my Blue belt from my coach, Steve Patterson from <a href="http://www.uofgf.com">University of Ground Fighting</a>, New Lenox, IL with his coach Comprido Medeiros of <a href="http://www.compridobjj.com"> Comprido BJJ</a>.</p>
+		<p class = "disclaimer">No youtube video can ever substitute for good instruction from a qualified instructor.  If you are interested in learning BJJ please be careful and find a qualified instructor. This app was developed as a programming exercise.</p>
+
+	</div>
+
+	
+
+	<input type = "text" name="techsearch" placeholder="Enter a new technique to search here" size="60" class="technique">
+	<br>
+	<button name="btn" class="search"> Search You Tube </button>
+
+	<div style="clear: both;"></div>
+
+		<h2 class="page">Search Results in order of most You Tube Views</h2>
+       
+		<div class = "response">
+        	<dl id= "response">
+        	<dt class = "title">
+        		<dd class = "description"></dd>
+
+        	</dt>
+        	</dl>
+        </div>
+
+        <button name="btn" class="page prev"> Previous Page </button>
+        <button name="btn" class="page next"> Next Page </button>
+    
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/app.js"></script>
+<!-- step 1 loading the javascript client api from Google. changed onClientLoad to waitForButton-->
+<script src="https://apis.google.com/js/client.js?onload=onClientLoad" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,292 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "\"F9iA7pnxqNgrkOutjQAa9F2k8HY/BXe3OOvur3UF05K5MNt0B_MdAF0\"",
+  "nextPageToken": "CAUQAA",
+  "pageInfo": {
+    "totalResults": 79717,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"F9iA7pnxqNgrkOutjQAa9F2k8HY/VAjXlKbxbhnCw445jmWWJM70bN0\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3PqQGdjb_bk"
+      },
+      "snippet": {
+        "publishedAt": "2011-01-03T22:46:50.000Z",
+        "channelId": "UCkKO2GkNmZaX9LEImtOv3yQ",
+        "title": "omoplata - Jiu-Jitsu - MMA Candy",
+        "description": "http://www.mmacandy.com/ omoplata - Jiu-Jitsu - MMA Candy Julia's Fan page: http://www.facebook.com/juliaymanova.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3PqQGdjb_bk/default.jpg"
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3PqQGdjb_bk/mqdefault.jpg"
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3PqQGdjb_bk/hqdefault.jpg"
+          }
+        },
+        "channelTitle": "mmacandy",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"F9iA7pnxqNgrkOutjQAa9F2k8HY/pqoCAAA5qxJJ3Lm2tCPbfW_YrqU\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kGLUPeN5D1Q"
+      },
+      "snippet": {
+        "publishedAt": "2007-03-19T03:37:06.000Z",
+        "channelId": "UCyd4uGaCr740eTvohffXR5w",
+        "title": "Omoplata Shoulder Lock: Submissions 101",
+        "description": "From www.submissions101.com.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kGLUPeN5D1Q/default.jpg"
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kGLUPeN5D1Q/mqdefault.jpg"
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kGLUPeN5D1Q/hqdefault.jpg"
+          }
+        },
+        "channelTitle": "Submissions101",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"F9iA7pnxqNgrkOutjQAa9F2k8HY/3tRGw2DVhYJxLAr2WegMLV82rSg\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "KaHAWCDcc64"
+      },
+      "snippet": {
+        "publishedAt": "2008-09-16T01:18:24.000Z",
+        "channelId": "UChElqF_ravniS5yuwIzWthA",
+        "title": "Frank Mir shows the omoplata on Joanne of MMA Girls",
+        "description": "Ultimate Fighter Coach Frank Mir shows the omoplata on Joanne of MMA Girls.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KaHAWCDcc64/default.jpg"
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KaHAWCDcc64/mqdefault.jpg"
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KaHAWCDcc64/hqdefault.jpg"
+          }
+        },
+        "channelTitle": "PanicPulse",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"F9iA7pnxqNgrkOutjQAa9F2k8HY/DmxTQp54nupb3CBD5xvcwXz2CPE\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PYG_PB3oHcc"
+      },
+      "snippet": {
+        "publishedAt": "2007-02-20T07:18:08.000Z",
+        "channelId": "UCs1G-TKyPmdnu8zW-HNJS5w",
+        "title": "Jiu-jitsu sequências - arm-lock - omoplata - triângulo - www.schubertbjj.com",
+        "description": "Compre agora mesmo os DVDs vídeo aulas Marcos Schubert em nosso site: http://graciepr.mercadoshops.com.br aulas: www.riliongraciecuritiba.com ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PYG_PB3oHcc/default.jpg"
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PYG_PB3oHcc/mqdefault.jpg"
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PYG_PB3oHcc/hqdefault.jpg"
+          }
+        },
+        "channelTitle": "graciepr",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"F9iA7pnxqNgrkOutjQAa9F2k8HY/pajIT5uPaeZtudQLovg3txHhHq0\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lcnmq-qGlZo"
+      },
+      "snippet": {
+        "publishedAt": "2008-07-09T18:47:00.000Z",
+        "channelId": "UCSyfmiMslYjGw_FwO_rrwWg",
+        "title": "OMOPLATA VOADOR",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lcnmq-qGlZo/default.jpg"
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lcnmq-qGlZo/mqdefault.jpg"
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lcnmq-qGlZo/hqdefault.jpg"
+          }
+        },
+        "channelTitle": "pawelb6",
+        "liveBroadcastContent": "none"
+      }
+    }
+  ],
+  "result": {
+    "kind": "youtube#searchListResponse",
+    "etag": "\"F9iA7pnxqNgrkOutjQAa9F2k8HY/BXe3OOvur3UF05K5MNt0B_MdAF0\"",
+    "nextPageToken": "CAUQAA",
+    "pageInfo": {
+      "totalResults": 79717,
+      "resultsPerPage": 5
+    },
+    "items": [
+      {
+        "kind": "youtube#searchResult",
+        "etag": "\"F9iA7pnxqNgrkOutjQAa9F2k8HY/VAjXlKbxbhnCw445jmWWJM70bN0\"",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "3PqQGdjb_bk"
+        },
+        "snippet": {
+          "publishedAt": "2011-01-03T22:46:50.000Z",
+          "channelId": "UCkKO2GkNmZaX9LEImtOv3yQ",
+          "title": "omoplata - Jiu-Jitsu - MMA Candy",
+          "description": "http://www.mmacandy.com/ omoplata - Jiu-Jitsu - MMA Candy Julia's Fan page: http://www.facebook.com/juliaymanova.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/3PqQGdjb_bk/default.jpg"
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/3PqQGdjb_bk/mqdefault.jpg"
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/3PqQGdjb_bk/hqdefault.jpg"
+            }
+          },
+          "channelTitle": "mmacandy",
+          "liveBroadcastContent": "none"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "\"F9iA7pnxqNgrkOutjQAa9F2k8HY/pqoCAAA5qxJJ3Lm2tCPbfW_YrqU\"",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "kGLUPeN5D1Q"
+        },
+        "snippet": {
+          "publishedAt": "2007-03-19T03:37:06.000Z",
+          "channelId": "UCyd4uGaCr740eTvohffXR5w",
+          "title": "Omoplata Shoulder Lock: Submissions 101",
+          "description": "From www.submissions101.com.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/kGLUPeN5D1Q/default.jpg"
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/kGLUPeN5D1Q/mqdefault.jpg"
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/kGLUPeN5D1Q/hqdefault.jpg"
+            }
+          },
+          "channelTitle": "Submissions101",
+          "liveBroadcastContent": "none"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "\"F9iA7pnxqNgrkOutjQAa9F2k8HY/3tRGw2DVhYJxLAr2WegMLV82rSg\"",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "KaHAWCDcc64"
+        },
+        "snippet": {
+          "publishedAt": "2008-09-16T01:18:24.000Z",
+          "channelId": "UChElqF_ravniS5yuwIzWthA",
+          "title": "Frank Mir shows the omoplata on Joanne of MMA Girls",
+          "description": "Ultimate Fighter Coach Frank Mir shows the omoplata on Joanne of MMA Girls.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/KaHAWCDcc64/default.jpg"
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/KaHAWCDcc64/mqdefault.jpg"
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/KaHAWCDcc64/hqdefault.jpg"
+            }
+          },
+          "channelTitle": "PanicPulse",
+          "liveBroadcastContent": "none"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "\"F9iA7pnxqNgrkOutjQAa9F2k8HY/DmxTQp54nupb3CBD5xvcwXz2CPE\"",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "PYG_PB3oHcc"
+        },
+        "snippet": {
+          "publishedAt": "2007-02-20T07:18:08.000Z",
+          "channelId": "UCs1G-TKyPmdnu8zW-HNJS5w",
+          "title": "Jiu-jitsu sequências - arm-lock - omoplata - triângulo - www.schubertbjj.com",
+          "description": "Compre agora mesmo os DVDs vídeo aulas Marcos Schubert em nosso site: http://graciepr.mercadoshops.com.br aulas: www.riliongraciecuritiba.com ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/PYG_PB3oHcc/default.jpg"
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/PYG_PB3oHcc/mqdefault.jpg"
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/PYG_PB3oHcc/hqdefault.jpg"
+            }
+          },
+          "channelTitle": "graciepr",
+          "liveBroadcastContent": "none"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "\"F9iA7pnxqNgrkOutjQAa9F2k8HY/pajIT5uPaeZtudQLovg3txHhHq0\"",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "lcnmq-qGlZo"
+        },
+        "snippet": {
+          "publishedAt": "2008-07-09T18:47:00.000Z",
+          "channelId": "UCSyfmiMslYjGw_FwO_rrwWg",
+          "title": "OMOPLATA VOADOR",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/lcnmq-qGlZo/default.jpg"
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/lcnmq-qGlZo/mqdefault.jpg"
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/lcnmq-qGlZo/hqdefault.jpg"
+            }
+          },
+          "channelTitle": "pawelb6",
+          "liveBroadcastContent": "none"
+        }
+      }
+    ]
+  }
+}

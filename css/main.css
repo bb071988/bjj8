@@ -1,0 +1,122 @@
+/* * {
+	border:2px black solid;
+}*/
+
+h1 {
+	color:#1650A7;
+}
+
+h2 {
+	color:#1650A7;
+	size:15px;
+	margin:5px;
+}
+
+
+body {
+	background:#D1D1E0;
+	color:#1650A7
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	background:white;
+}
+
+dt {
+	color:#1650A7;
+	size:15px;
+	margin:5px;
+}
+
+.left {
+	float: left;
+	width:60%;
+	display:inline-block;
+}
+
+.yourgame {
+	font-size:30px;
+	/* width:500px; */
+}
+
+.yourgame h1 {
+	display: inline-block;
+}
+
+
+.disclaimer {
+	font-size:15px;
+
+}
+
+.topimg {
+	float:left;
+	height: 300px;
+	margin:0px 20px 20px 20px;
+}
+
+.selectbox {
+	display:inline-block;
+}
+
+
+.technique {
+	display:inline-block;
+	width:300px;
+	vertical-align: top;
+	border: #1650A7 2px solid;
+	margin:10px;
+	font-size: 15px;
+}
+
+
+.video {
+	display:inline-block;
+	float:right;
+	width:37%;
+	height:600px;
+	vertical-align: top;
+	background-image: url("youtube.jpg");
+
+	/*background-size: 300px 500px;*/
+}
+
+.selectbox {
+	height:300px;
+
+}
+
+.results {
+	display:inline-block;
+	width:550px;
+	text-align: top;
+	vertical-align: top;
+	border: #1650A7 2px solid;
+	margin:10px;
+}
+
+button {	
+	background: #1650A7;
+	font-size: 20px;
+	margin:20px;
+	padding-left:10px;
+	vertical-align: center;
+	color:white;
+
+}
+
+button:hover {
+	background:#A3A3C2;
+}
+
+form { 
+	font-size: 25px;
+}
+
+.page {
+	display: none;
+}
