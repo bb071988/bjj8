@@ -1,0 +1,25 @@
+mentor ntoes
+
+document.ready - pass anonymous variable - that is part of that js not part of the window.
+
+// will break minification
+
+public functions - private functions etc..
+
+On a scale application - mykey would be exposed.  Closure with other closures.  Variables and methods where children have access to the parent
+anonymous function in beginning couldn't be accessed elsewhere.
+
+Key would be initialized from a server done in namespace so nothing else would have access there.
+
+Google asks what url can use the key.
+
+Foursquare - Does not implement this in the API.
+
+// var - lastResponse;  // if we ever get to window answer is always yes so it will declare it.  Without a var it will automatically proceed up in chain of questioning.
+
+vars should be declared at the top of the functions vs at the - 
+
+	
+j aguilar	8:37 AM
+var x, i, title, link;
+var x=10, v=12;

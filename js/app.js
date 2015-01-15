@@ -1,104 +1,106 @@
 
-var myKey = "AIzaSyAvY8gw_9m9K4kfUbASjxJWcgzVjkwImcQ";
+$(document).ready(function(){
+
+    myKey = "AIzaSyAvY8gw_9m9K4kfUbASjxJWcgzVjkwImcQ";
 
 
-var technique ="";
+    technique ="";
 
-$('.search')
+    lastResponse='';
 
-    .on('click', function(){
+
+    $('.search')
+
+        .on('click', function(){
+
+            $('#response').empty();
+
+            technique = $('input').val();
+            if (technique != '') {
+
+                searchOnTechnique(technique);
+                
+                $('input').val(''); /* clear the field value */
+            }
+
+            else {alert('Technique cannot be blank');}
+
+            
+
+        });  /* end on click function */
+
+
+    $('.next')
+
+        .on('click', function(){
 
         $('#response').empty();
 
-        technique = $('input').val();
-        if (technique != '') {
+        
+        searchOnToken(lastResponse.nextPageToken);  
 
-           // alert('technique to search is ' + technique)
-            searchOnTechnique(technique);
-            
-            $('input').val(''); // clear the value from the field
-        }
+        });  /* end on click function */
 
-        else {alert('Technique cannot be blank');}
+
+
+    $('.prev')
+
+        .on('click', function(){
+
+        $('#response').empty();
 
         
+        searchOnToken(lastResponse.prevPageToken);
 
-    });  // end on click function ;
-
-
-$('.next')
-
-    .on('click', function(){
-
-    //spage = response.nextPageToken;
-    //alert('page is set to ' + page);
-    $('#response').empty();
-
-    
-    searchOnToken(lastResponse.nextPageToken);  // modify to pass the nextPageToken
-
-    });  // end on click function 
+        });  /* End on click function */
 
 
-
-$('.prev')
-
-    .on('click', function(){
-
-    //spage = response.nextPageToken;
-    //alert('page is set to ' + page);
-    $('#response').empty();
-
-    
-    searchOnToken(lastResponse.prevPageToken);  // modify to pass the curToken
-
-    });  // end on click function 
+});   /* end on document ready function */
 
 
+/* Called automatically when JavaScript client library is loaded. */
 
-
-// Called automatically when JavaScript client library is loaded.
-// step 1. Load the javascript client library.
 function onClientLoad() {
         
     gapi.client.load('youtube', 'v3', onYouTubeApiLoad); 
     };   
 
-// Called automatically when YouTube API interface is loaded (see line 9).
-//step 2.  Reference the API key
+
 function onYouTubeApiLoad() {
 
-    gapi.client.setApiKey(myKey); //my api key here
+    gapi.client.setApiKey(myKey); 
     
     };
 
 
-// Called automatically with the response of the YouTube API request.
-function onSearchResponse(response) {
-	//alert('onsearchresponse' + response.nextPageToken);
-    nextPage = response.nextPageToken;
+/* Called automatically with the response of the YouTube API request. */
 
-    // SAVE CURRENT RESPONSE OBJECT HERE.  TOP LEVEL VARIABLE.  THEN CAN ACCESS ANYTHING HERE.  *********  **********  *********
+function onSearchResponse(response) {
+
     lastResponse = response;
    
     showResponse(response);
 };
 
 
-// Helper function to display JavaScript value on HTML page.
+/* Helper function to display JavaScript value on HTML page. */
 function showResponse(response) {
       
-  //var sResponse = JSON.stringify(response, '', 2);
-  //console.log(sResponse);
+  /* var sResponse = JSON.stringify(response, '', 2);
+  console.log(sResponse); 
+
+  Keeping for future reference */
+
+  var link, title, description, i;
    
      
     $(".page").css("display","inline-block");
-    for (i = 0; i< response.items.length; i++)
+    for (i = 0; i< response.items.length; i++) 
         {
-            var link = response.items[i].id.videoId
-            var title = response.items[i].snippet.title;
+            link = response.items[i].id.videoId
+            title = response.items[i].snippet.title;
 
-            var description = response.items[i].snippet.description;
+            description = response.items[i].snippet.description;
 
             if (! description) {
                 description = "No description provided by You Tube";
@@ -150,3 +152,6 @@ var request = gapi.client.youtube.search.list({
     request.execute(onSearchResponse);
 
 };
+
+
+
