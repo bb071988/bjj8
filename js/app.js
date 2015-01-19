@@ -8,11 +8,7 @@ $(document).ready(function(){
 
     var lastResponse='';
 
-    window.onClientLoad = onClientLoad;
-    window.onYouTubeApiLoad = onYouTubeApiLoad;
-
-
-
+   
     $('.search')
 
         .on('click', function(){
