@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 
-   var myKey = "AIzaSyAvY8gw_9m9K4kfUbASjxJWcgzVjkwImcQ";
+   
 
 
     var technique ="";
@@ -64,17 +64,6 @@ $(document).ready(function(){
 
 /* Called automatically when JavaScript client library is loaded. */
 
-function onClientLoad() {
-        
-    gapi.client.load('youtube', 'v3', onYouTubeApiLoad); 
-    };   
-
-
-function onYouTubeApiLoad() {
-
-    gapi.client.setApiKey(myKey); 
-    
-    };
 
 
 /* Called automatically with the response of the YouTube API request. */
@@ -160,3 +149,16 @@ var request = gapi.client.youtube.search.list({
 
 
 });   /* end on document ready function */
+
+function onClientLoad() {
+        
+    gapi.client.load('youtube', 'v3', onYouTubeApiLoad); 
+    };   
+
+
+function onYouTubeApiLoad() {
+
+    var myKey = "AIzaSyAvY8gw_9m9K4kfUbASjxJWcgzVjkwImcQ";    
+    gapi.client.setApiKey(myKey); 
+    
+    };
