@@ -1,12 +1,12 @@
 
 $(document).ready(function(){
 
-    myKey = "AIzaSyAvY8gw_9m9K4kfUbASjxJWcgzVjkwImcQ";
+   var myKey = "AIzaSyAvY8gw_9m9K4kfUbASjxJWcgzVjkwImcQ";
 
 
-    technique ="";
+    var technique ="";
 
-    lastResponse='';
+    var lastResponse='';
 
 
     $('.search')
@@ -55,7 +55,7 @@ $(document).ready(function(){
         });  /* End on click function */
 
 
-});   /* end on document ready function */
+
 
 
 /* Called automatically when JavaScript client library is loaded. */
@@ -155,3 +155,4 @@ var request = gapi.client.youtube.search.list({
 
 
 
+});   /* end on document ready function */
